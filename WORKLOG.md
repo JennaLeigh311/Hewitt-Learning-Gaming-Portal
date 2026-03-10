@@ -30,6 +30,7 @@ For now I just put these in but didn't write any code for them yet
 - Added `start.sh` and `start.bat` to start the dev server easily on either platform
 
 ### Run It
+Right now we can't use these commands to run it yet because our database connection isn't actually configured yet, but once we get that figured it out we'll be able to run it like this: 
 From the `backend/` folder:
 - **Mac/Linux:** `bash setup.sh` then `bash start.sh`
 - **Windows:** `setup.bat` then `start.bat`
@@ -47,3 +48,4 @@ Later on, we can add:
 - JWT auth and admin only checks for authorizing requests to admin endpoints
 - Maybe set up some workflows? 
 - Once all the APIs are decided on, we don't necessarily need them to work, but then we can start working on the frontend
+
